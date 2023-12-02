@@ -7,4 +7,17 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'catalogo5';
+
+
+datosMenu=[{
+
+'titulo':'CATALOGO',
+'icono':'fas fa-align-justify',
+'url':'https://www.google.com.mx/',
+
+
+
+}];
+
+
 }

@@ -4,13 +4,21 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { HttpClientModule } from '@angular/common/http';
+import { EditarComponent } from './editar/editar.component';
+import { AgregarComponent } from './agregar/agregar.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EditarComponent,
+    AgregarComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
